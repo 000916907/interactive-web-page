@@ -1,14 +1,8 @@
 /* body styles */
 body {
-  /* background-image: url('images/web_img.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed; */
   background-color: aliceblue;
 }
 header{
-  /* text-align: center; */
   font-size: 30px;
   color: #721c24;
   float: right;
@@ -24,7 +18,6 @@ img
 }
 .info
 {
-  /* float: left; */
   padding-left: 550px;
 }
 .right
@@ -32,7 +25,6 @@ img
   float: right;
   padding-right: 100px;
   padding-top: 2px;
-  /* display: block; */
 }
 #contact{
   font-size: 25px;
@@ -59,7 +51,7 @@ form {
   input[type="email"],
   input[type="date"] {
     display: inline-block;
-    width: calc(100% - 130px); /* Adjust the width based on label width */
+    width: calc(100% - 130px); 
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -98,7 +90,7 @@ form {
     margin-top: 5px;
   }
   #errorContainer {
-    display: none; /* Hide the error container by default */
+    display: none; 
     background-color: #f8d7da;
     color: #721c24;
     padding: 10px;
@@ -111,20 +103,20 @@ form {
     clear: both;
     text-align: center;
     margin-top: 50px;
-    background-color: #1b0ab6; /* Added background color */
-    color: #fff; /* Changed text color */
-    padding: 20px; /* Added padding for content */
+    background-color: #1b0ab6; 
+    color: #fff; 
+    padding: 20px; 
   }
   footer p {
     font-size: 14px;
     margin-bottom: 5px;
   }
   footer a {
-    color: #fff; /* Changed text color */
+    color: #fff; 
     text-decoration: none;
   }
   footer a:hover {
-    color: #f9f9f9; /* Changed text color on hover */
+    color: #f9f9f9; 
   }
 
   
